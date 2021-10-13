@@ -7,6 +7,7 @@ import styles from "./style.module.scss";
 import ETH from "./../../assets/ETH.svg";
 import BNB from "./../../assets/BNB.svg";
 import MATIC from "./../../assets/MATIC.svg";
+import Banner from "./../../assets/banner.png";
 
 class index extends Component {
   render() {
@@ -33,6 +34,7 @@ class index extends Component {
             </div>
           </Link>
         </div>
+        <img src={Banner} alt="Banner" className={styles.Banner} />
       </div>
     );
   }
