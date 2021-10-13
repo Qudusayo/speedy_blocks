@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25rem 4rem;
+
+  h2 {
+    margin: 0;
+
+    a {
+      text-decoration: none;
+      color: #000000;
+
+      &:active {
+        color: #000000;
+      }
+    }
+  }
+
+  img {
+    width: 2.5rem;
+  }
+}
